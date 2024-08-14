@@ -1,0 +1,70 @@
+# Include any files or directories that you don't want to be copied to your
+# container here (e.g., local build artifacts, temporary files, etc.).
+#
+# For more help, visit the .dockerignore file reference guide at
+# https://docs.docker.com/go/build-context-dockerignore/
+
+# --------------
+# DJAZZ SPECIFIC
+# --------------
+**/docs
+**/media
+env.ini
+requirements/**.md
+requirements/**.txt
+
+# ----------
+# Python etc
+# ----------
+**/*.egg
+**/*.egg-info
+**/*.pyc
+**/*.pyd
+**/*.pyo
+**/*.swp
+**/.cache
+**/.pytest_cache
+**/.python-version
+**/.venv
+**/MANIFEST
+**/MANIFEST.in
+**/__pycache__
+**/build
+**/dist
+**/pip-selfcheck.json
+**/pyvenv.cfg
+**/tmp
+**/venv
+
+# ******
+# Others
+# ******
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/.DS_Store
+**/.classpath
+**/.dockerignore
+**/.env
+**/.git
+**/.gitignore
+**/.idea
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/.vscode
+**/Dockerfile*
+**/bin
+**/charts
+**/compose.y*ml
+**/coverage
+**/docker-compose*
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+LICENSE
+README.md
+
