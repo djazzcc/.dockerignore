@@ -10,7 +10,6 @@
 **/docs
 **/media
 env.ini
-**/.env
 
 # ----------
 # Python etc
@@ -48,6 +47,7 @@ env.ini
 **/.git
 **/.gitignore
 **/.idea
+**/.cursor
 **/.project
 **/.settings
 **/.toolstarget
