@@ -41,6 +41,10 @@ env.ini
 **/*.*proj.user
 **/*.dbmdl
 **/*.jfm
+**/.log
+**/.pnpm-store
+**/.logs
+**/.backup
 **/.DS_Store
 **/.classpath
 **/.dockerignore
