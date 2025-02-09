@@ -3,6 +3,7 @@
 #
 # For more help, visit the .dockerignore file reference guide at
 # https://docs.docker.com/go/build-context-dockerignore/
+# Check updates from: https://github.com/djazzcc/.dockerignore
 
 # --------------
 # DJAZZ SPECIFIC
