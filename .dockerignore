@@ -10,8 +10,7 @@
 **/docs
 **/media
 env.ini
-requirements/**.md
-requirements/**.txt
+**/.env
 
 # ----------
 # Python etc
